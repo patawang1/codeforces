@@ -10,8 +10,6 @@ int main() {
   int n;
   cin >> n;
 
-  vector<string> results;
-
   for (int i = 0; i < n; ++i) {
     string word;
     cin >> word;
