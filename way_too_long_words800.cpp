@@ -20,7 +20,7 @@ int main() {
       word = word[0] + to_string(word.length() - 2) + word.back();
     }
 
-    cout << word << endl;
+    cout << word << "\n";
   }
 
   return 0;

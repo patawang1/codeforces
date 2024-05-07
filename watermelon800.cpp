@@ -12,9 +12,9 @@ int main() {
   cin >> w;
 
   if (w % 2 == 0 && w > 2) {
-    cout << "YES" << endl;
+    cout << "YES";
   } else {
-    cout << "NO" << endl;
+    cout << "NO";
   }
 
   return 0;
