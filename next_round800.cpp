@@ -10,13 +10,13 @@ int main() {
   int first, second, count(0);
 
   cin >> first >> second;
-  count = first;
   int num;
 
-  for (int i = 0; i < first; i++) {
-    if (second <= i) {
-      cin >> num;
-    }
+  cin >> num;
+
+  while (num > second) {
+    count++;
+    cin >> num;
   }
 
   cout << count;
