@@ -12,13 +12,13 @@ int main() {
   cin >> num >> pos;
 
   for (int i = 1; i <= num; i += 2) {
-    if (count = pos) {
+    if (count == pos) {
       cout << i;
     }
     count++;
   }
   for (int i = 2; i <= num; i += 2) {
-    if (count = pos) {
+    if (count == pos) {
       cout << i;
     }
     count++;
